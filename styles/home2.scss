@@ -1,0 +1,119 @@
+body{
+    background-color: #eff1f4;
+}
+#register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    gap: 8%;
+    .photo{
+        &_sign{
+            width: 530px;
+            height: 700px;
+        }
+    }
+    .container{
+        margin-bottom: 4%;
+
+        .back{
+            display: flex;
+            margin-bottom: 32%;
+            &-icon{
+                width: 30px;
+                height: 25px;
+                border-radius: 50%;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                cursor: pointer;
+            }
+            &-text{
+                font-size: 20px;
+                margin-left: 13px;
+            }
+        }
+        #tittle{
+            margin-bottom: 8%;
+            .first{
+                font-size: 30px;
+                color: rgb(50, 50, 50);
+            }
+            .second{
+                font-size: 20px;
+                color: #64748b;
+            }
+        }
+        
+        #form{
+            .form-phone{
+                .phone-text{
+                    font-size: 15px;
+                    color: dimgrey;
+                }
+                .input-phone{
+                    position: relative;
+                    margin-bottom: 3%;
+                    .user{
+                        position: absolute;
+                        top: 57%;
+                        left: 3%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+            #phone{
+                width: 400px;
+                height: 50px;
+                border: 1px solid #ccc;
+                background-color: transparent;
+                border-radius: 10px;
+                margin-top: 11px;
+                padding: 0 50px;
+            }
+            .form-robot{
+                justify-content: space-between;
+                width: 300px;
+                height: 50px;
+                border: 1px solid #ccc;
+                padding: 10px;
+                background-color: transparent;
+                margin-top: 4%;
+                display: flex;
+                gap: 5px;
+                .checkbox{
+                    width: 24px;
+                    height: 24px;
+                    position: absolute;
+                    margin-top: 13px;
+                    accent-color: #eff1f4;
+                }
+                &-text{
+                  font-family: Arial, Helvetica, sans-serif;
+                  color: rgb(69, 68, 68);
+                  margin-left: 11%;
+                }
+               
+                &-img{
+                  position: relative;
+                  width: 70px;
+                  height: 50px;
+                  margin-left: 15px;
+                }
+                }
+            }
+        .btn{
+            display: flex;
+            flex-direction: column;
+            .password{
+                margin-top: 6%;
+                background-color:#5f90db;
+                color: #fff;
+                padding: 10px;
+                border-radius: 10px;
+                border: none;
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}

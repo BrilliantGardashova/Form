@@ -1,0 +1,153 @@
+body{
+    background-color: #eff1f4;
+}
+#register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    gap: 10%;
+    .photo{
+        &_sign{
+            width: 530px;
+            height: 700px;
+        }
+    }
+    .container{
+        // margin-bottom: 11%;
+
+        #tittle{
+            margin-bottom: 8%;
+            .first{
+                font-size: 30px;
+                color: rgb(50, 50, 50);
+            }
+            .second{
+                font-size: 20px;
+                color: dimgrey;
+            }
+        }
+        
+        #form{
+            .form-email{
+                .email-text{
+                    font-size: 15px;
+                    color: dimgrey;
+                }
+                .input-email{
+                    position: relative;
+                    margin-bottom: 3%;
+                    .user{
+                        position: absolute;
+                        top: 55%;
+                        left: 3%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+            #email{
+                width: 350px;
+                height: 50px;
+                border: 1px solid #ccc;
+                background-color: transparent;
+                border-radius: 10px;
+                margin-top: 11px;
+                padding: 0 50px;
+            }
+
+            .form-password{
+                .password-text{
+                    font-size: 15px;
+                    color: dimgrey;
+                }
+                .input-password{
+                    position: relative;
+                    margin-bottom: 10%;
+                    .lock{
+                        position: absolute;
+                        top: 57%;
+                        left: 3%;
+                        transform: translateY(-50%);
+                    }
+                }
+                #password{
+                    width: 350px;
+                    height: 50px;
+                    border: 1px solid #ccc;
+                    background-color: transparent;
+                    border-radius: 10px;
+                    margin-top: 11px;
+                    padding: 0 50px;
+                }
+                .eye{
+                    position: absolute;
+                    top: 57%;
+                    right: 3%;
+                    transform: translateY(-50%);
+                }
+                .eye-off{
+                    position: absolute;
+                    top: 57%;
+                    right: 3%;
+                    transform: translateY(-50%);
+                    display: none;
+                }
+            }
+        }
+    
+        .checkbox-text{
+            display: flex;
+            justify-content: space-between;
+            margin-top: -6%;
+            .checkbox-content{
+                font-size: 20px;
+                color: dimgrey;;
+                .checkbox{
+                    width: 20px;
+                    height: 20px;
+                    border-color: #ccc;
+                    accent-color: #eff1f4;
+                }
+
+            }
+            .forget-pass{
+                color: #639af6;
+                margin-top: 9px;
+            }
+        }
+        
+        .btn{
+            display: flex;
+            flex-direction: column;
+            .sign-in{
+                margin-top: 6%;
+                background-color:#1a75ff;
+                color: #fff;
+                padding: 10px;
+                border-radius: 10px;
+                border: none;
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+        .create-link{
+            display: block;
+            width: 430px;
+            height: 20px;
+            text-decoration: none;
+            margin-top: 6%;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            border-color: #1a75ff;
+            color: #1a75ff;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+            cursor: pointer;
+                    &:hover{
+                        background-color: #1a75ff;
+                        color: #fff;
+                    }
+        }
+    }
+ }

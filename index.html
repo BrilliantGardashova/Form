@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesab.login</title>
+    <link rel="stylesheet" href="./styles/home.css">
+</head>
+<body>
+    <div id="register">
+        <div class="photo">
+            <img  class="photo_sign" src="./assets/signin_az.png" alt="">
+        </div>
+        <div class="container">
+            <div id="tittle">
+                <h3 class="first">Hesaba daxil ol</h3>
+                <h4 class="second">Məlumatlarınızı daxil edin</h4>
+            </div>
+            <form id="form">
+                <div class="form-email">
+                    <label class="email-text">Email və ya mobil nömrə</label>
+                    <div class="input-email">
+                        <img class="user" src="./assets/icon/user.svg" alt="">
+                        <input type="text" class="form-control" id="email"  name="email" placeholder="hesab@hesab.az və ya 994 00 123 45 67" >
+                        <div class="email-message">
+    
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="form-password">
+                    <label class="password-text">Şifrə</label>
+                    <div class="input-password">
+                        <img class="lock" src="./assets/icon/lock.svg" alt="">
+                        <input type="password" class="form-control" id="password"  name="password" placeholder="******" >
+                        <img class="eye" src="./assets/icon/eye.svg" alt="">
+                        <img class="eye-off" src="./assets/icon/eye-off.svg" alt="">
+                        <div class="password-message">
+    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="checkbox-text">
+
+                    <div class="checkbox-content">
+                        <input type="checkbox" class="checkbox" name="checkbox" id="checkbox">
+                        <span>Yadda saxla</span>
+                    </div>
+                        <a class="forget-pass" href="./forget.html">Şifrəni unutmusunuz?</a>
+                </div>
+                <div class="btn"> 
+                    <button type="submit" class="sign-in">Daxil ol</button>
+                </div>
+                    
+                
+            </form>
+            <a class="create-link" href="./create.html"> Yeni hesab yaradın</a>
+        </div>
+    </div>    
+    <script src="./js/index.js"></script>
+</body>
+</html>

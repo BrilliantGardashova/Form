@@ -1,0 +1,137 @@
+body {
+  background-color: #eff1f4;
+}
+
+#register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+  gap: 10%;
+}
+#register .photo_sign {
+  width: 530px;
+  height: 700px;
+}
+#register .container #tittle {
+  margin-bottom: 8%;
+}
+#register .container #tittle .first {
+  font-size: 30px;
+  color: rgb(50, 50, 50);
+}
+#register .container #tittle .second {
+  font-size: 20px;
+  color: dimgrey;
+}
+#register .container #form .form-email .email-text {
+  font-size: 15px;
+  color: dimgrey;
+}
+#register .container #form .form-email .input-email {
+  position: relative;
+  margin-bottom: 3%;
+}
+#register .container #form .form-email .input-email .user {
+  position: absolute;
+  top: 55%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+#register .container #form #email {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-top: 11px;
+  padding: 0 50px;
+}
+#register .container #form .form-password .password-text {
+  font-size: 15px;
+  color: dimgrey;
+}
+#register .container #form .form-password .input-password {
+  position: relative;
+  margin-bottom: 10%;
+}
+#register .container #form .form-password .input-password .lock {
+  position: absolute;
+  top: 57%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+#register .container #form .form-password #password {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-top: 11px;
+  padding: 0 50px;
+}
+#register .container #form .form-password .eye {
+  position: absolute;
+  top: 57%;
+  right: 3%;
+  transform: translateY(-50%);
+}
+#register .container #form .form-password .eye-off {
+  position: absolute;
+  top: 57%;
+  right: 3%;
+  transform: translateY(-50%);
+  display: none;
+}
+#register .container .checkbox-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -6%;
+}
+#register .container .checkbox-text .checkbox-content {
+  font-size: 20px;
+  color: dimgrey;
+}
+#register .container .checkbox-text .checkbox-content .checkbox {
+  width: 20px;
+  height: 20px;
+  border-color: #ccc;
+  accent-color: #eff1f4;
+}
+#register .container .checkbox-text .forget-pass {
+  color: #639af6;
+  margin-top: 9px;
+}
+#register .container .btn {
+  display: flex;
+  flex-direction: column;
+}
+#register .container .btn .sign-in {
+  margin-top: 6%;
+  background-color: #1a75ff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+#register .container .create-link {
+  display: block;
+  width: 430px;
+  height: 20px;
+  text-decoration: none;
+  margin-top: 6%;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  border-color: #1a75ff;
+  color: #1a75ff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+#register .container .create-link:hover {
+  background-color: #1a75ff;
+  color: #fff;
+}/*# sourceMappingURL=home.css.map */

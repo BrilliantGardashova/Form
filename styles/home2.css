@@ -1,0 +1,111 @@
+body {
+  background-color: #eff1f4;
+}
+
+#register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+  gap: 8%;
+}
+#register .photo_sign {
+  width: 530px;
+  height: 700px;
+}
+#register .container {
+  margin-bottom: 4%;
+}
+#register .container .back {
+  display: flex;
+  margin-bottom: 32%;
+}
+#register .container .back-icon {
+  width: 30px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+#register .container .back-text {
+  font-size: 20px;
+  margin-left: 13px;
+}
+#register .container #tittle {
+  margin-bottom: 8%;
+}
+#register .container #tittle .first {
+  font-size: 30px;
+  color: rgb(50, 50, 50);
+}
+#register .container #tittle .second {
+  font-size: 20px;
+  color: #64748b;
+}
+#register .container #form .form-phone .phone-text {
+  font-size: 15px;
+  color: dimgrey;
+}
+#register .container #form .form-phone .input-phone {
+  position: relative;
+  margin-bottom: 3%;
+}
+#register .container #form .form-phone .input-phone .user {
+  position: absolute;
+  top: 57%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+#register .container #form #phone {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-top: 11px;
+  padding: 0 50px;
+}
+#register .container #form .form-robot {
+  justify-content: space-between;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: transparent;
+  margin-top: 4%;
+  display: flex;
+  gap: 5px;
+}
+#register .container #form .form-robot .checkbox {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin-top: 13px;
+  accent-color: #eff1f4;
+}
+#register .container #form .form-robot-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(69, 68, 68);
+  margin-left: 11%;
+}
+#register .container #form .form-robot-img {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  margin-left: 15px;
+}
+#register .container .btn {
+  display: flex;
+  flex-direction: column;
+}
+#register .container .btn .password {
+  margin-top: 6%;
+  background-color: #5f90db;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=home2.css.map */
